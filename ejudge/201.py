@@ -1,6 +1,10 @@
-n = int(input())
-s = 0
-arr = list(map(int, input().split()))
-for i in range(4):
-    s+=arr[i]
-print(s)
+numbers = list(map(int, input().split()))
+
+avg = sum(numbers) / len(numbers)
+
+count = 0
+for x in numbers:
+    if x > avg:
+        count += 1
+
+print(count)
