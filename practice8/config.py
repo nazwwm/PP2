@@ -1,5 +1,6 @@
-host = "localhost"
-database = "myfirstdb"
-user = "postgres"
-password = "550697"
-port = "2008"
+config = {
+    "host": "localhost",
+    "database": "phonebook_db",
+    "user": "postgres",
+    "password": "12345678"
+}
